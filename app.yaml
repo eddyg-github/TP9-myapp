@@ -46,6 +46,6 @@ spec:
     spec:
       containers:
         - name: my-container
-          image: your-docker-image
+          image: eddyedged/myapp:1.2
           ports:
             - containerPort: 8080
